@@ -18,3 +18,5 @@ for i in range(-15,16): #현재를 기준으로 과거 15일 미래 15일 총 30
     bio_emo = round( np.sin(2*3.14*count_days / 28) * 100 )
     bio_int = round( np.sin(2*3.14*count_days / 33) * 100 )
     print(date,bio_phy, bio_emo, bio_int)
+
+    #결과값은 numpy로 확인
